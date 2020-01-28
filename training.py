@@ -82,7 +82,6 @@ def cross_validate(model, X_train, y_train, params, param_grid, cv, scorer):
     return params
 
 
-
 def train_GBT(X_train, y_train, cv, scorer): 
     
     """
@@ -375,6 +374,7 @@ def main():
     print('\tBalanced accuracy: %.3f' % bal_acc)
     print('\tRecall           : %.3f' % rec)
     print('\tF1 score         : %.3f' % f1score)
+    
     
 #run
 if __name__=='__main__':
