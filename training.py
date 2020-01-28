@@ -247,7 +247,7 @@ def dummy_score(X_train, y_train, X_test, y_test, strategy, label=None):
 def main():
     
     # import data 
-    path     = '../data/dataset1.csv'
+    path     = ''
     df       = pd.read_csv(path, sep=',')
     features = ['perceived susceptibility', 'disease score', 'peak',
                 'perceived severity', 'efficacy', 'gender', 'flu frequency',
